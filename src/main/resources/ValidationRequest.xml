@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<urn:validationRequest
+	timestamp="2017-04-20T04:20:00.000Z" msgId="${messageId}"
+	correlationId="corr_${messageId}" traceId="VALT-1" domain="${domain}"
+	subdomain="${subdomain}" activity="TEST" crud="C"
+	callbackURI="FLUX.IN_VALIDATION_RESPONSE_TEST"
+	ruleSetVersion="${ruleSetVersion}"
+	xmlns:rsm="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:3"
+	xmlns:urn="urn:validate.ruleengine.schema.core.havochvatten.se:v1">
+	<rsm:FLUXFAReportMessage
+		xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:20"
+		xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:20">
+		<rsm:FLUXReportDocument>
+			<ram:ID schemeID="UUID">70C51CE2-0539-4E50-9C9A-3C86D0FBFF79</ram:ID>
+			<ram:ReferencedID schemeID="UUID">5b6f0c4f-5242-4850-a22f-43c28f7e435f
+			</ram:ReferencedID>
+			<ram:CreationDateTime>
+				<udt:DateTimeString format="string">2017-04-20T04:20:00Z
+				</udt:DateTimeString>
+				<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+			</ram:CreationDateTime>
+			<ram:PurposeCode listID="FLUX_GP_PURPOSE">9</ram:PurposeCode>
+			<ram:OwnerFLUXParty>
+				<ram:ID schemeID="FLUX_GP_PARTY">ESP</ram:ID>
+			</ram:OwnerFLUXParty>
+		</rsm:FLUXReportDocument>
+		<rsm:FAReportDocument>
+			<ram:TypeCode listID="FLUX_FA_REPORT_TYPE">DECLARATION</ram:TypeCode>
+			<ram:RelatedReportID schemeID="EU-ERS3.1_ON">ESP20160601000103
+			</ram:RelatedReportID>
+			<ram:RelatedReportID schemeID="EU-ERS3.1_RN">ESP20160601000099
+			</ram:RelatedReportID>
+			<ram:AcceptanceDateTime>
+				<udt:DateTimeString format="string">2017-04-20T04:20:00Z
+				</udt:DateTimeString>
+				<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+			</ram:AcceptanceDateTime>
+			<ram:RelatedFLUXReportDocument>
+				<ram:ID schemeID="UUID">B692A87C-CA56-418B-9627-85B0B2F88987
+				</ram:ID>
+				<ram:ReferencedID schemeID="UUID">081fb979-be0f-4878-aeb9-3e1f99813daa
+				</ram:ReferencedID>
+				<ram:CreationDateTime>
+					<udt:DateTimeString format="string">2017-04-20T04:20:00Z
+					</udt:DateTimeString>
+					<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+				</ram:CreationDateTime>
+				<ram:PurposeCode listID="FLUX_GP_PURPOSE">9</ram:PurposeCode>
+				<ram:OwnerFLUXParty>
+					<ram:ID schemeID="FLUX_GP_PARTY">ESP</ram:ID>
+				</ram:OwnerFLUXParty>
+			</ram:RelatedFLUXReportDocument>
+			<ram:SpecifiedFishingActivity>
+				<ram:TypeCode listID="FLUX_FA_TYPE">START_FISHING</ram:TypeCode>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">200
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GHT</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">200
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">21.3.M</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">48
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GUH</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">48
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">27.10.b</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">435
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GHT</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">435
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">21.3.M</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">5027
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GUH</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">5027
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">21.3.M</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">375
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GHT</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">375
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">27.10.b</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">SWO</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">4840
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GHT</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">4840
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">21.3.M</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">BSH</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">12558
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GUH</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">12558
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">27.10.b</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">BSH</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">22932
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GUH</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">22932
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">21.3.M</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">SWO</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">1015
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">UNLOADED</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+						<ram:CategoryCode listID="FA_BFT_SIZE_CATEGORY">S6</ram:CategoryCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:ConversionFactorNumeric>1.23</ram:ConversionFactorNumeric>
+						<ram:TypeCode listID="FISH_PRESENTATION">GHT</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:PackagingTypeCode
+								listID="FISH_PACKAGING">BOX</ram:PackagingTypeCode>
+							<ram:PackagingUnitAverageWeightMeasure
+								unitCode="KGM">1.23</ram:PackagingUnitAverageWeightMeasure>
+							<ram:PackagingUnitQuantity
+								unitCode="KGM">123</ram:PackagingUnitQuantity>
+							<ram:WeightMeasure unitCode="KGM">1015
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">27.10.b</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+					<ram:UnitQuantity>420</ram:UnitQuantity>
+					<ram:WeighingMeansCode listID="WEIGHT_MEANS">ONBOARD
+					</ram:WeighingMeansCode>
+				</ram:SpecifiedFACatch>
+				<ram:RelatedFLUXLocation>
+					<ram:ID schemeID="GFCM_STAT_RECTANGLE">M00E9</ram:ID>
+					<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+					<ram:CountryID schemeID="TERRITORY">ESP</ram:CountryID>
+					<ram:RegionalFisheriesManagementOrganizationCode
+						listID="RFMO">NEAFC</ram:RegionalFisheriesManagementOrganizationCode>
+					<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+						<ram:LatitudeMeasure>1.000</ram:LatitudeMeasure>
+						<ram:LongitudeMeasure>2.000</ram:LongitudeMeasure>
+					</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:PhysicalStructuredAddress>
+						<ram:StreetName>CANGAS DE MORRAZO, PONTEVEDRA</ram:StreetName>
+						<ram:PostalArea>54321</ram:PostalArea>
+						<ram:PostcodeCode>12345</ram:PostcodeCode>
+						<ram:CityName>Cangas</ram:CityName>
+						<ram:CountryID schemeID="TERRITORY">ESP</ram:CountryID>
+						<ram:PlotIdentification>Some plot id</ram:PlotIdentification>
+					</ram:PhysicalStructuredAddress>
+					<ram:ApplicableFLUXCharacteristic>
+						<ram:TypeCode listID="FLUX_LOCATION_CHARACTERISTIC">LANDING_SITE</ram:TypeCode>
+					</ram:ApplicableFLUXCharacteristic>
+				</ram:RelatedFLUXLocation>
+				<ram:SpecifiedGearProblem>
+					<ram:TypeCode listID="FA_GEAR_PROBLEM">GEAR_LOSS</ram:TypeCode>
+					<ram:AffectedQuantity>123</ram:AffectedQuantity>
+					<ram:RecoveryMeasureCode
+						listID="FA_GEAR_RECOVERY">DREG_SWEEP</ram:RecoveryMeasureCode>
+					<ram:RecoveryMeasureCode
+						listID="FA_GEAR_RECOVERY">OCULAR</ram:RecoveryMeasureCode>
+					<ram:SpecifiedFLUXLocation>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+						<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+							<ram:LatitudeMeasure>1.000</ram:LatitudeMeasure>
+							<ram:LongitudeMeasure>2.000</ram:LongitudeMeasure>
+						</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					</ram:SpecifiedFLUXLocation>
+					<ram:SpecifiedFLUXLocation>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+						<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+							<ram:LatitudeMeasure>1.000</ram:LatitudeMeasure>
+							<ram:LongitudeMeasure>2.000</ram:LongitudeMeasure>
+						</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedGearProblem>
+				<ram:ReasonCode listID="FA_REASON_ENTRY">FIS</ram:ReasonCode>
+				<ram:VesselRelatedActivityCode
+					listID="VESSEL_ACTIVITY">FIS</ram:VesselRelatedActivityCode>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="ISO8601">2017-04-20T04:20:00Z
+					</udt:DateTimeString>
+					<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+				</ram:OccurrenceDateTime>
+				<ram:FisheryTypeCode listID="FA_FISHERY">SPELF
+				</ram:FisheryTypeCode>
+				<ram:OperationsQuantity>123</ram:OperationsQuantity>
+				<ram:SpeciesTargetCode listID="FAO_SPECIES">SWO
+				</ram:SpeciesTargetCode>
+				<ram:SpecifiedFLUXCharacteristic>
+					<ram:TypeCode listID="FA_CHARACTERISTIC">REMARK</ram:TypeCode>
+					<ram:Value>123</ram:Value>
+				</ram:SpecifiedFLUXCharacteristic>
+				<ram:SpecifiedDelimitedPeriod>
+					<ram:StartDateTime>
+						<udt:DateTimeString format="string">2016-04-20T04:20:00Z
+						</udt:DateTimeString>
+						<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+					</ram:StartDateTime>
+					<ram:EndDateTime>
+						<udt:DateTimeString format="string">2017-04-20T04:20:00Z
+						</udt:DateTimeString>
+						<udt:DateTime>2017-04-20T04:21:30Z</udt:DateTime>
+					</ram:EndDateTime>
+					<ram:DurationMeasure unitCode="MIN">1.5
+					</ram:DurationMeasure>
+				</ram:SpecifiedDelimitedPeriod>
+				<ram:SpecifiedFishingTrip>
+					<ram:ID schemeID="EU_TRIP_ID">ESP-TRP-20160601000099</ram:ID>
+					<ram:TypeCode listID="FISHING_TRIP_TYPE">JFO</ram:TypeCode>
+				</ram:SpecifiedFishingTrip>
+				<ram:RelatedVesselTransportMeans>
+					<ram:ID schemeID="CFR">${vesselCfr}</ram:ID>
+					<ram:ID schemeID="IRCS">${vesselIrcs}</ram:ID>
+					<ram:ID schemeID="EXT_MARK">3-TA-32699</ram:ID>
+					<ram:RoleCode listID="FA_VESSEL_ROLE">DONOR</ram:RoleCode>
+					<ram:RegistrationVesselCountry>
+						<ram:ID schemeID="TERRITORY">${vesselTerritory}</ram:ID>
+					</ram:RegistrationVesselCountry>
+				</ram:RelatedVesselTransportMeans>
+				<ram:SpecifiedFishingGear>
+					<ram:TypeCode listID="GEAR_TYPE">NK</ram:TypeCode>
+					<ram:RoleCode listID="FA_GEAR_ROLE">ONBOARD</ram:RoleCode>
+					<ram:ApplicableGearCharacteristic>
+						<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GD</ram:TypeCode>
+						<ram:Value>0</ram:Value>
+					</ram:ApplicableGearCharacteristic>
+					<ram:ApplicableGearCharacteristic>
+						<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GN</ram:TypeCode>
+						<ram:Value>0</ram:Value>
+						<ram:ValueQuantity unitCode="C62">1200
+						</ram:ValueQuantity>
+						<ram:ValueMeasure unitCode="KGM">1200
+						</ram:ValueMeasure>
+					</ram:ApplicableGearCharacteristic>
+					<ram:RoleCode listID="FA_GEAR_ROLE">ONBOARD</ram:RoleCode>
+				</ram:SpecifiedFishingGear>
+			</ram:SpecifiedFishingActivity>
+			<ram:SpecifiedFishingActivity>
+				<ram:TypeCode listID="FLUX_FA_TYPE">DEPARTURE</ram:TypeCode>
+				<ram:ReasonCode listID="FA_REASON_DEPARTURE">FIS</ram:ReasonCode>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="ISO8601">2017-04-20T04:20:00Z
+					</udt:DateTimeString>
+					<udt:DateTime>2017-04-20T04:20:00Z</udt:DateTime>
+				</ram:OccurrenceDateTime>
+				<ram:RelatedFLUXLocation>
+					<ram:ID schemeID="GFCM_STAT_RECTANGLE">M00E9</ram:ID>
+					<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+					<ram:CountryID schemeID="TERRITORY">ESP</ram:CountryID>
+					<ram:RegionalFisheriesManagementOrganizationCode
+						listID="RFMO">NEAFC</ram:RegionalFisheriesManagementOrganizationCode>
+					<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+						<ram:LatitudeMeasure>1.000</ram:LatitudeMeasure>
+						<ram:LongitudeMeasure>2.000</ram:LongitudeMeasure>
+					</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:PhysicalStructuredAddress>
+						<ram:StreetName>CANGAS DE MORRAZO, PONTEVEDRA</ram:StreetName>
+						<ram:PostalArea>54321</ram:PostalArea>
+						<ram:PostcodeCode>12345</ram:PostcodeCode>
+						<ram:CityName>Cangas</ram:CityName>
+						<ram:CountryID schemeID="TERRITORY">ESP</ram:CountryID>
+						<ram:PlotIdentification>Some plot id</ram:PlotIdentification>
+					</ram:PhysicalStructuredAddress>
+					<ram:ApplicableFLUXCharacteristic>
+						<ram:TypeCode listID="FLUX_LOCATION_CHARACTERISTIC">LANDING_SITE</ram:TypeCode>
+					</ram:ApplicableFLUXCharacteristic>
+				</ram:RelatedFLUXLocation>
+				<ram:SpecifiedFishingGear>
+					<ram:TypeCode listID="GEAR_TYPE">NK</ram:TypeCode>
+					<ram:RoleCode listID="FA_GEAR_ROLE">ONBOARD</ram:RoleCode>
+					<ram:ApplicableGearCharacteristic>
+						<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GD</ram:TypeCode>
+						<ram:Value>0</ram:Value>
+					</ram:ApplicableGearCharacteristic>
+					<ram:ApplicableGearCharacteristic>
+						<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GN</ram:TypeCode>
+						<ram:Value>0</ram:Value>
+						<ram:ValueQuantity unitCode="C62">1200
+						</ram:ValueQuantity>
+						<ram:ValueMeasure unitCode="KGM">1200
+						</ram:ValueMeasure>
+					</ram:ApplicableGearCharacteristic>
+					<ram:RoleCode listID="FA_GEAR_ROLE">ONBOARD</ram:RoleCode>
+				</ram:SpecifiedFishingGear>
+				<ram:SpecifiedFACatch>
+					<ram:SpeciesCode listID="FAO_SPECIES">COD</ram:SpeciesCode>
+					<ram:WeightMeasure unitCode="KGM">48
+					</ram:WeightMeasure>
+					<ram:TypeCode listID="FA_CATCH_TYPE">ONBOARD</ram:TypeCode>
+					<ram:SpecifiedSizeDistribution>
+						<ram:ClassCode listID="FISH_SIZE_CLASS">LSC</ram:ClassCode>
+					</ram:SpecifiedSizeDistribution>
+					<ram:AppliedAAPProcess>
+						<ram:TypeCode listID="FISH_PRESENTATION">GUH</ram:TypeCode>
+						<ram:TypeCode listID="FISH_PRESERVATION">FRE</ram:TypeCode>
+						<ram:ResultAAPProduct>
+							<ram:WeightMeasure unitCode="KGM">48
+							</ram:WeightMeasure>
+						</ram:ResultAAPProduct>
+					</ram:AppliedAAPProcess>
+					<ram:SpecifiedFLUXLocation>
+						<ram:RegionalFisheriesManagementOrganizationCode
+							listID="RFMO">AIDCP</ram:RegionalFisheriesManagementOrganizationCode>
+						<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+						<ram:ID schemeID="FAO_AREA">27.10.b</ram:ID>
+					</ram:SpecifiedFLUXLocation>
+				</ram:SpecifiedFACatch>
+				<ram:RelatedVesselTransportMeans>
+					<ram:ID schemeID="CFR">${vesselCfr}</ram:ID>
+					<ram:ID schemeID="IRCS">${vesselIrcs}</ram:ID>
+					<ram:ID schemeID="EXT_MARK">3-TA-32699</ram:ID>
+					<ram:RoleCode listID="FA_VESSEL_ROLE">DONOR</ram:RoleCode>
+					<ram:RegistrationVesselCountry>
+						<ram:ID schemeID="TERRITORY">${vesselTerritory}</ram:ID>
+					</ram:RegistrationVesselCountry>
+				</ram:RelatedVesselTransportMeans>
+				<ram:SpecifiedFishingTrip>
+					<ram:ID schemeID="EU_TRIP_ID">ESP-TRP-20160601000099</ram:ID>
+					<ram:TypeCode listID="FISHING_TRIP_TYPE">JFO</ram:TypeCode>
+				</ram:SpecifiedFishingTrip>
+			</ram:SpecifiedFishingActivity>
+			<ram:SpecifiedVesselTransportMeans>
+				<ram:ID schemeID="CFR">${vesselCfr}</ram:ID>
+				<ram:ID schemeID="IRCS">${vesselIrcs}</ram:ID>
+				<ram:ID schemeID="EXT_MARK">3-TA-32699</ram:ID>
+				<ram:Name>MADOBE</ram:Name>
+				<ram:RoleCode listID="FA_VESSEL_ROLE">RECEIVER</ram:RoleCode>
+				<ram:RegistrationVesselCountry>
+					<ram:ID schemeID="TERRITORY">${vesselTerritory}</ram:ID>
+				</ram:RegistrationVesselCountry>
+				<ram:SpecifiedContactParty>
+					<ram:RoleCode listID="FLUX_CONTACT_ROLE">MASTER</ram:RoleCode>
+					<ram:SpecifiedStructuredAddress>
+						<ram:StreetName>CANGAS DE MORRAZO, PONTEVEDRA</ram:StreetName>
+						<ram:PostalArea>54321</ram:PostalArea>
+						<ram:PostcodeCode>12345</ram:PostcodeCode>
+						<ram:CityName>Cangas</ram:CityName>
+						<ram:CountryID schemeID="TERRITORY">ESP</ram:CountryID>
+						<ram:PlotIdentification>Some plot id</ram:PlotIdentification>
+					</ram:SpecifiedStructuredAddress>
+					<ram:SpecifiedStructuredAddress>
+						<ram:StreetName>1007 Mountain Drive</ram:StreetName>
+						<ram:PostalArea>54321</ram:PostalArea>
+						<ram:PostcodeCode>735</ram:PostcodeCode>
+						<ram:CityName>Gotham</ram:CityName>
+						<ram:CountryID schemeID="TERRITORY">USA</ram:CountryID>
+						<ram:PlotIdentification>Some other plot id
+						</ram:PlotIdentification>
+					</ram:SpecifiedStructuredAddress>
+					<ram:SpecifiedContactPerson>
+						<ram:GivenName>FRANCISCO</ram:GivenName>
+						<ram:FamilyName>CORREDOR</ram:FamilyName>
+						<ram:Alias>FRANCISCO CORREDOR</ram:Alias>
+					</ram:SpecifiedContactPerson>
+				</ram:SpecifiedContactParty>
+				<ram:ApplicableVesselStorageCharacteristic>
+					<ram:TypeCode listID="VESSEL_STORAGE_TYPE">CONTAINER</ram:TypeCode>
+					<ram:TypeCode listID="VESSEL_STORAGE_TYPE">KEEP_NET</ram:TypeCode>
+				</ram:ApplicableVesselStorageCharacteristic>
+			</ram:SpecifiedVesselTransportMeans>
+		</rsm:FAReportDocument>
+	</rsm:FLUXFAReportMessage>
+</urn:validationRequest>
